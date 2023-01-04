@@ -29,6 +29,6 @@ public class soru9_iframe extends TestBase{
         driver.switchTo().parentFrame();
         //5)ikinci iframe'deki (Jmeter Made Easy) linke(https://www.guru99.com/live-selenium-project.html) tıklayınız
         driver.switchTo().frame(7);
-        driver.findElement(By.xpath("//*[@href='http://www.guru99.com/live-selenium-project.html']")).click();
+        driver.findElement(By.xpath("//*[@src='Jmeter720.png']")).click();
     }
 }
