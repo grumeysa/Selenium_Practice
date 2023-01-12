@@ -31,8 +31,7 @@ public class soru1 extends TestBase {
         //9. Fill details: Title, Name, Email, Password, Date of birth
         WebElement bilgiler = driver.findElement(By.xpath("(//*[@name='title'])[2]"));
         bilgiler.click();
-        Thread.sleep(5000);
-        bilgiler.sendKeys(Keys.TAB,"asde",Keys.TAB,"asde@hotmail.com",Keys.TAB,"1234",Keys.TAB,"01",Keys.TAB, "January",Keys.TAB,"2000");
+
         //10. Select checkbox 'Sign up for our newsletter!'
         //11. Select checkbox 'Receive special offers from our partners!'
         //12. Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number

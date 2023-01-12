@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
-public class soru2 {
+public class soru2_dropDown {
     /*
   1-https://rahulshettyacademy.com/AutomationPractice/ adresine gidin
   2-Dropdown Example menüsünün görünür olduğunu doğrulayın.

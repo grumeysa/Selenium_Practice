@@ -46,6 +46,14 @@ import java.time.Duration;
             driver.switchTo().window(origin);
         }
 
+        public static void waitFor(int seconds) {
+            try {
+                Thread.sleep(seconds * 1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
     }
 
 

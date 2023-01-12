@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WindowType;
 
-public class soru11 extends TestBase{
+public class soru11_windowHandle extends TestBase{
 
     @Test
     public void test01(){
